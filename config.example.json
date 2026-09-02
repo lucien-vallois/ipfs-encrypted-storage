@@ -1,0 +1,25 @@
+{
+  "ipfs": {
+    "url": "localhost:5001",
+    "timeout": "30s"
+  },
+  "encryption": {
+    "key_derivation": {
+      "time": 1,
+      "memory": 65536,
+      "threads": 4,
+      "key_len": 32
+    }
+  },
+  "p2p": {
+    "listen_addr": "/ip4/0.0.0.0/tcp/0",
+    "bootstrap_peers": [],
+    "bootstrap": false
+  },
+  "logging": {
+    "level": "info",
+    "format": "text",
+    "output_file": ""
+  }
+}
+
